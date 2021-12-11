@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a,
+img,
+button,
+input,
+select,
+span,
+textarea {
+  /* border: 1px solid red; */
+}
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+p {
+  border: 1px solid green;
+}
+select {
+  width: 200px;
+  height: 40px;
+}
+section {
+  padding: 50px;
+  background-color: beige;
+}
+input {
+  height: 40px;
+  padding: 4px 10px;
+}
+section:last-child {
+  background-color: rgb(135, 194, 133);
+}
+header {
+  font-size: 24px;
+  text-align: center;
+  padding: 20px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: burlywood;
+}
+
+main {
+  background-color: grey;
+  min-height: 100vh;
+}
+footer {
+  background-color: burlywood;
+  text-align: center;
+  padding: 20px 0;
+}
+.blockHeader,
+.inilineBlockHeader {
+  margin-bottom: 20px;
+}
